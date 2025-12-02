@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HID-HOP - Wireless Keyboard & Trackpad</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .container { max-width: 600px; text-align: center; }
+        .logo { width: 150px; height: 150px; margin-bottom: 20px; border-radius: 30px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; color: #a855f7; }
+        .subtitle { font-size: 1.2em; color: #888; margin-bottom: 30px; }
+        .description { line-height: 1.6; margin-bottom: 30px; color: #ccc; }
+        .links { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .links a {
+            background: #a855f7;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .links a:hover { background: #9333ea; }
+        .links a.secondary { background: #333; }
+        .links a.secondary:hover { background: #444; }
+        footer { margin-top: 50px; color: #666; font-size: 0.9em; }
+        footer a { color: #a855f7; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="docs/images/hopguy.png" alt="HID-HOP" class="logo">
+        <h1>HID-HOP</h1>
+        <p class="subtitle">Wireless Keyboard & Trackpad</p>
+        <p class="description">
+            Turn your iPhone into a wireless keyboard and trackpad for any computer.
+            Connect to the HID-HOP USB dongle and control your computer from across the room.
+        </p>
+        <div class="links">
+            <a href="https://apps.apple.com/app/hid-hop" target="_blank">App Store</a>
+            <a href="https://github.com/nathanabrewer/hid-hop-ios" class="secondary">GitHub</a>
+            <a href="PRIVACY_POLICY" class="secondary">Privacy Policy</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 <a href="https://github.com/nathanabrewer">Nathan Brewer</a>. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
